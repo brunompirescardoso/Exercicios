@@ -14,7 +14,9 @@ public class N13 {
         System.out.println("Insira o segundo numero binario: ");
         String b2 = input.next();
 
-        System.out.println("A soma é igual a: " + operacao.somaBinarios(b1, b2));
+
+
+        System.out.println("A soma é igual a: " + operacao.binarySum(operacao.binToInt(b1), operacao.binToInt(b2)));
 
 
 
